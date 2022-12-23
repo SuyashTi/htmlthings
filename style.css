@@ -1,0 +1,31 @@
+p {
+    text-decoration: capitalize;
+    text-align:justify;
+}
+
+
+#para1{
+    text-shadow: 2px 2px 5px green;
+}
+
+p.myclass{
+    color:brown
+}
+
+tr,th,td{
+    text-align: left;
+}
+
+div p{
+    background-color:aqua
+}
+/*select the p element where div is direct*/
+div>p{
+    color: red;
+}
+div+p{
+    color:brown
+}
+p~ div{
+    color:rebeccapurple
+}

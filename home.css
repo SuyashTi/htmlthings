@@ -1,0 +1,16 @@
+h1{
+    background-color: rgb(254,99,77,0.9);
+}
+p{
+    background-image: url(img/b.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#last {
+    border-style:inset;
+    border-width: 5px;
+    border-color: red;
+    margin-left: 20px;
+    width: 600px;
+    box-sizing: border-box;
+}

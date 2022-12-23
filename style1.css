@@ -1,0 +1,41 @@
+*{
+    text-align: center;
+}
+ul{
+    text-align: center;
+    list-style-position: inside;
+}
+
+
+#para1{
+    text-shadow: 2px 2px 5px blueviolet;
+}
+div p{
+    background-color:aqua
+}
+a{
+    text-decoration: none;
+    color: brown;
+}
+a:active{
+    background-color: yellow;
+}
+a:hover{
+    background-color:greenyellow ;
+}
+input:focus{
+    background-color: palevioletred;
+}
+
+
+p:nth-of-type(2n){
+    background-color: red;
+}
+
+#para1{
+    font-family: cursive;
+    font-style: italic;
+    font-style: oblique;
+    font-weight: 800;
+    font-variant: small-caps;
+}
